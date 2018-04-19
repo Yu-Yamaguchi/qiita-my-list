@@ -134,3 +134,4 @@ CSSはちょっとだけ画面デザインを調整しているだけなので�
 ### コード一式
 
 コード一式はGitHubにあげておきました。
+https://github.com/Yu-Yamaguchi/qiita-my-list
