@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Qiita My Article List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app" class="container">
+    <h1>My Articles</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>＃</th>
+          <th>タイトル</th>
+          <th>閲覧</th>
+          <th>いいね</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(article, idx) in articles">
+          <td>{{idx + 1}}</td>
+          <td>{{article.title}}</td>
+          <td>{{article.page_views_count}}</td>
+          <td>{{article.likes_count}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

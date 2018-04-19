@@ -1,0 +1,27 @@
+body {
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+#app h1 {
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+#app thead tr th {
+  color: #fff;
+  padding: 8px 15px;
+  background: #256;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+#app tbody tr td {
+  padding: 8px 15px;
+}
